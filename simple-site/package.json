@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "files": [
+    "*"
+  ],
+  "tsconfig": "./tsconfig.json",
+  "scripts": {
+    "clean": "rimraf build/*",
+    "serve": "serve src"
+  },
+  "author": "Alexander Shvets",
+  "dependencies": {
+    "d3": "~6.7.0",
+    "d3-selection":"~1.4.2"
+  },
+  "devDependencies": {
+    "@types/d3": "~6.3.0",
+    "@types/d3-selection": "~1.4.3",
+    "rimraf": "~3.0.2",
+    "serve": "~11.3.2"
+  }
+}
